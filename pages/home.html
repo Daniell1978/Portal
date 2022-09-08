@@ -1,0 +1,111 @@
+<html>
+    <head>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="/public/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <header>
+            <div class="center">
+                <div class="logo">
+                    <h2><span style="font-weight:lighter;">DaniNews</span><b>Notícias</b></h2>
+                </div><!--logo-->
+                <div class="form-busca">
+                    <form>
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input name="busca" type="text" placeholder="Busca..." />
+                    </form>
+                </div><!--formbusca-->
+            </div><!--center-->
+        </header>
+        
+
+        <section class="noticia-destaque">
+            <div class="center">
+                <div class="img-destaque">
+                    <div class="overlay-destaque"></div>
+                    <div class="title-destaque-descricao">
+                        <h2>Quer Fugir das Praias de Verão?</h2>
+                        
+                        <p>Prefiro esbanjar emoções. Mesmo que doa. Mesmo que, um dia, eu possa me arrepender. Meus arrependimentos duram pouco, alguma coisa me cutuca e diz olha, que bom que você fez.</p>
+                    </div>
+                    <img src="/public/images/lago-negro-2.jpg" />
+                </div>
+            </div>
+        </section>
+
+        <section class="outras-noticias">
+            <div class="title-outras-noticias">
+                <h2>Últimas Publicações</h2>
+               <br><br>
+                <div class="center">
+                    <div class="ultimas">
+                        <div class="box-ultima-single">
+                            <img src="/public/images/Surf-Costa-Rica-Vacation.jpg"/>
+                            <div class="conteudo-noticia-single">
+                            <h3>Natureza Geral</h3>
+                            <h2>Como Encarar o surf em João Pessoa</h2>
+                            <p>Aqui um texto sobre o surf para completar  a matéria.</p>
+                            <a href="/encarar-o-surf">Saiba Mais</a>
+                            </div>
+                        </div>
+                        <div class="box-ultima-single">
+                            <img src="/public/images/Surf-Costa-Rica-Vacation.jpg" />
+                            <div class="conteudo-noticia-single">
+                            <h3>Natureza Geral</h3>
+                            <h2>Como Encarar o surf em João Pessoa</h2>
+                            <p>Aqui um texto sobre o surf para completar  a matéria.</p>
+                            <a href="/encarar-o-surf">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mais-lidas">
+                        <h3>Mais Lidas</h3>
+                        <div class="mais-lidas-noticias">
+                            <div class="mais-lidas-noticias-single">
+                                <img src="/public/images/natureza.webp" />
+                                <div class="texto-mais-lidas-single">
+                                    <h4>Natureza</h4>
+                                    <p>A importancia da floresta do ártico para a biodiversidade mundial.</p>
+                                    <a href="/encarar-o-surf">Saiba Mais</a>
+                                </div>
+                            </div>
+                            <div class="mais-lidas-noticias-single">
+                                <img src="/public/images/natureza.webp" />
+                                <div class="texto-mais-lidas-single">
+                                    <h4>Natureza</h4>
+                                    <p>A importancia da floresta do ártico para a biodiversidade mundial.</p>
+                                    <a href="/encarar-o-surf">Saiba Mais</a>
+                                </div>
+                            </div>
+                            <div class="mais-lidas-noticias-single">
+                                <img src="/public/images/natureza.webp" />
+                                <div class="texto-mais-lidas-single">
+                                    <h4>Natureza</h4>
+                                    <p>A importancia da floresta do ártico para a biodiversidade mundial.</p>
+                                    <a href="/encarar-o-surf">Saiba Mais</a>
+                                </div>
+                            </div>
+                            <div class="mais-lidas-noticias-single">
+                                <img src="/public/images/natureza.webp" height="100px"/>
+                                <div class="texto-mais-lidas-single">
+                                    <h4>Natureza</h4>
+                                    <p>A importancia da floresta do ártico para a biodiversidade mundial.</p>
+                                    <a href="/encarar-o-surf">Saiba Mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <%- include('partials/footer.html') %>
+
+    </body>
+</html>
